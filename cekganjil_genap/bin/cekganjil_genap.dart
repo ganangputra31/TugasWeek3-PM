@@ -8,10 +8,12 @@ void main() {
     stdout.write("Masukkan angka: ");
     int angka = int.parse(stdin.readLineSync()!);
 
+    print("---------------------");
     if (angka % 2 == 0) {
-      print("$angka adalah angka Genap");
+      print("$angka adalah bilangan Genap");
     } else {
-      print("$angka adalah angka Ganjil");
+      print("$angka adalah bilangan Ganjil");
     }
+    print("---------------------");
   }
 }
