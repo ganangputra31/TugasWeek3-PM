@@ -9,9 +9,9 @@ void main() {
     int angka = int.parse(stdin.readLineSync()!);
 
     if (angka % 2 == 0) {
-      print("$angka adalah Genap");
+      print("$angka adalah angka Genap");
     } else {
-      print("$angka adalah Ganjil");
+      print("$angka adalah angka Ganjil");
     }
   }
 }
