@@ -5,7 +5,7 @@ void main() {
   int jumlah = int.parse(stdin.readLineSync()!);
 
   for (int i = 0; i < jumlah; i++) {
-    stdout.write("Masukkan angka: ");
+    stdout.write("Masukkan angka ke-${i + 1}: ");
     int angka = int.parse(stdin.readLineSync()!);
 
     print("---------------------");
